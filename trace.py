@@ -125,7 +125,8 @@ def sky_image(colour_fn, azim_range: tuple=(-180, 180), elev_range: tuple=(0, 90
     return image
 
 
-def display_sky(colour_fn, sun_azim: float=0, sun_elev: float=3, width: int=200, height: int=100) -> None:
+def display_sky(colour_fn, sun_azim: float=0, sun_elev: float=3,
+                 width: int=200, height: int=100) -> None:
     """"
     Plotting tool for sky image
     """
@@ -151,3 +152,5 @@ if __name__ == "__main__":
     sun_dir = np.array([0, 0, np.sin(np.radians(0))])  
 
     display_sky(colour)
+
+    "adding small change"
