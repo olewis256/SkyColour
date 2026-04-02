@@ -153,4 +153,4 @@ if __name__ == "__main__":
 
     display_sky(colour)
 
-    "adding small change"
+    "adding another small change"
